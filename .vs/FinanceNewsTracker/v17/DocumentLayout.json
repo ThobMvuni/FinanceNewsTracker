@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\services\\newsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\models\\financenews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\models\\financenews.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\wwwroot\\css\\timeline.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\wwwroot\\css\\timeline.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\services\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\services\\inewsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\financenewstracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\financenewstracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\models\\newsarticle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|c:\\users\\lungile\\source\\repos\\financenewstracker\\financenewstracker\\models\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B4697C3-920C-48F6-8BB0-AA66BBF0DD68}|FinanceNewsTracker\\FinanceNewsTracker.csproj|solutionrelative:financenewstracker\\models\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Pages\\Error.cshtml",
+              "RelativeToolTip": "FinanceNewsTracker\\Pages\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T20:17:13.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Program.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Program.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Program.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAjwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T20:11:55.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FinanceNewsTracker\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T16:04:41.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:04:56.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Services\\NewsService.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Services\\NewsService.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Services\\NewsService.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Services\\NewsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAWwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:23:50.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FinanceNews.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Models\\FinanceNews.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Models\\FinanceNews.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Models\\FinanceNews.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Models\\FinanceNews.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:57:13.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimeLine.css",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\wwwroot\\css\\TimeLine.css",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\wwwroot\\css\\TimeLine.css",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\wwwroot\\css\\TimeLine.css",
+              "RelativeToolTip": "FinanceNewsTracker\\wwwroot\\css\\TimeLine.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-08T17:35:08.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INewsService.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Services\\INewsService.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Services\\INewsService.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Services\\INewsService.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Services\\INewsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:20:56.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FinanceNewsTracker.csproj",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\FinanceNewsTracker.csproj",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
+              "RelativeToolTip": "FinanceNewsTracker\\FinanceNewsTracker.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-08T10:55:26.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\appsettings.json",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\appsettings.json",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\appsettings.json",
+              "RelativeToolTip": "FinanceNewsTracker\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T09:30:47.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewsArticle.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Models\\NewsArticle.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Models\\NewsArticle.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Models\\NewsArticle.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Models\\NewsArticle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:02:03.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Models\\Pagination.cs",
+              "RelativeDocumentMoniker": "FinanceNewsTracker\\Models\\Pagination.cs",
+              "ToolTip": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\Models\\Pagination.cs",
+              "RelativeToolTip": "FinanceNewsTracker\\Models\\Pagination.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:03:14.094Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
