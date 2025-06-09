@@ -41,6 +41,7 @@ This project is a **Finance News Tracker** built with **ASP.NET 8**, displaying 
 }
 
 3. **Run the application::**
+   
    dotnet run
 
 **📄 License**
