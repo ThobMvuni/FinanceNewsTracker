@@ -43,10 +43,6 @@ This project is a **Finance News Tracker** built with **ASP.NET 8**, displaying 
 3. **Run the application::**
    dotnet run
 
-4. **View in browser:**
-
-   https://localhost:5001
-
 **📄 License**
 
 This project is licensed under the MIT License.
