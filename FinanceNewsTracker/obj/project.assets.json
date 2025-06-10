@@ -145,11 +145,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
+      "projectUniqueName": "C:\\Users\\Lungile\\Documents\\CodeTribe\\Thobile\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
       "projectName": "FinanceNewsTracker",
-      "projectPath": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
+      "projectPath": "C:\\Users\\Lungile\\Documents\\CodeTribe\\Thobile\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
       "packagesPath": "C:\\Users\\Lungile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\obj\\",
+      "outputPath": "C:\\Users\\Lungile\\Documents\\CodeTribe\\Thobile\\FinanceNewsTracker\\FinanceNewsTracker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lungile\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -2,11 +2,11 @@ using FinanceNewsTracker.Models;
 using FinanceNewsTracker.Services;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace FinanceNewsTracker.Pages0
+namespace FinanceNewsTracker.Pages
 {
     public class IndexModel : PageModel
     {
-        public FinanceNews news;
+        public FinanceNews? news { get; set; }
         private readonly ILogger<IndexModel> _logger;
         private readonly INewsService _newsService;
 
@@ -16,14 +16,30 @@ namespace FinanceNewsTracker.Pages0
             _newsService = newsService;
         }
 
-        public void OnGet()
+        public async Task OnGet()
         {
-           news = _newsService.GetFinanceNews(0);
+            try
+            {
+                news = await _newsService.GetFinanceNewsAsync(0);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading news");
+                news = null;
+            }
         }
 
-        public void OnGetLoadMoreNews(int offset)
+        public async Task OnGetLoadMoreNews(int offset)
         {
-            news = _newsService.GetFinanceNews(offset);
+            try
+            {
+                news = await _newsService.GetFinanceNewsAsync(offset);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error loading more news");
+                news = null;
+            }
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29/LmjKKnDs=",
+  "dgSpecHash": "menO75D/iDU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lungile\\source\\repos\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
+  "projectFilePath": "C:\\Users\\Lungile\\Documents\\CodeTribe\\Thobile\\FinanceNewsTracker\\FinanceNewsTracker\\FinanceNewsTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lungile\\.nuget\\packages\\newtonsoft.json\\8.0.3\\newtonsoft.json.8.0.3.nupkg.sha512",
     "C:\\Users\\Lungile\\.nuget\\packages\\system.security.permissions\\9.0.0\\system.security.permissions.9.0.0.nupkg.sha512",

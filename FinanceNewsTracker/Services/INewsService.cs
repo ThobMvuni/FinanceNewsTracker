@@ -1,9 +1,10 @@
-﻿using FinanceNewsTracker.Models;
+using FinanceNewsTracker.Models;
+using System.Threading.Tasks;
 
 namespace FinanceNewsTracker.Services
 {
     public interface INewsService
     {
-        FinanceNews GetFinanceNews(int offset);
+        Task<FinanceNews> GetFinanceNewsAsync(int offset);
     }
 }

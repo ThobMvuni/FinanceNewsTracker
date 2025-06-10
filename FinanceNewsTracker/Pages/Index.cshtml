@@ -1,11 +1,32 @@
-﻿@page
-@using FinanceNewsTracker.Pages0
+@page
+@using FinanceNewsTracker.Pages
 @model IndexModel
 @{
     ViewData["Title"] = "News";
+}
 
-    var nextoffset = @Model.news.Pagination.Count + @Model.news.Pagination.Offset;
-
+@if (Model.news == null)
+{
+    <div class="row d-flex justify-content-center mt-70 mb-70">
+        <div class="col-md-12">
+            <div class="alert alert-danger">
+                <strong>Error:</strong> Failed to load news. Please try again later.
+            </div>
+        </div>
+    </div>
+}
+else if (!Model.news.Data.Any())
+{
+    <div class="row d-flex justify-content-center mt-70 mb-70">
+        <div class="col-md-12">
+            <div class="alert alert-info">
+                No news articles found.
+            </div>
+        </div>
+    </div>
+}
+else
+{
     <div class="row d-flex justify-content-center mt-70 mb-70">
         <div class="col-md-12">
             <div class="main-card mb-3 card">
@@ -15,16 +36,16 @@
 
                         @foreach (var article in Model.news.Data)
                         {
-
                             <div class="vertical-timeline-item vertical-timeline-element">
                                 <div>
                                     <span class="vertical-timeline-element-icon bounce-in"> <i class="badge badge-dot badge-dot-xl badge-success"> </i> </span>
                                     <div class="vertical-timeline-element-content bounce-in">
-                                        <h4 class="timeline-title"><a href="@article.Url">@article.Title</a></h4>
-                                        <p>@article.Description</p> <span class="vertical-timeline-element-date">
+                                        <h4 class="timeline-title"><a href="@article.Url" target="_blank">@article.Title</a></h4>
+                                        <p>@article.Description</p> 
+                                        <span class="vertical-timeline-element-date">
                                             @article.PublishedAt.ToShortDateString()
                                             <br>
-                                            @article.PublishedAt.TimeOfDay
+                                            @article.PublishedAt.ToString("HH:mm")
                                         </span>
                                     </div>
                                 </div>
@@ -38,17 +59,15 @@
     </div>
 
     <div class="row">
-        
         <div class="col">
-            <a asp-page-handler="LoadMoreNews" asp-route-offset="0" class="btn btn-secondary btn-lg w-100">Load Latest</a>
-
+            <a asp-page-handler="LoadMoreNews" asp-route-offset="0" class="btn btn-secondary btn-lg w-100">Latest News</a>
         </div>
 
-         <div class="col">
-             <a asp-page-handler="LoadMoreNews" asp-route-offset="@nextoffset" class="btn btn-secondary btn-lg w-100">Load More</a>
+        <div class="col">
+            <a asp-page-handler="LoadMoreNews" asp-route-offset="@Model.news.Pagination.Offset + @Model.news.Pagination.Count" class="btn btn-secondary btn-lg w-100">Load More</a>
         </div>
-
     </div>
+}
 
 
 }

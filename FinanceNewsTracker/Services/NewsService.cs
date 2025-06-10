@@ -1,4 +1,4 @@
-﻿using FinanceNewsTracker.Models;
+using FinanceNewsTracker.Models;
 using Newtonsoft.Json;
 
 namespace FinanceNewsTracker.Services
@@ -12,35 +12,46 @@ namespace FinanceNewsTracker.Services
         {
             _configuration = configuration;
         }
-        public FinanceNews GetFinanceNews(int offset)
+        public async Task<FinanceNews> GetFinanceNewsAsync(int offset)
         {
-            string apikey = _configuration.GetValue<string>("API_KEY");
-            string baseURl = _configuration.GetValue<string>("API_URL");
+            var apikey = _configuration.GetValue<string>("API_KEY");
+            var baseURl = _configuration.GetValue<string>("API_URL");
 
-            using (var client = new HttpClient()) { 
-                   
-                client.BaseAddress = new Uri(baseURl);
+            if (string.IsNullOrEmpty(apikey) || string.IsNullOrEmpty(baseURl))
+            {
+                throw new InvalidOperationException("API configuration is missing");
+            }
 
-                var parameters = string.Format("?apikey={0}&offset={1}&date={2}&sort={3}", apikey, offset, "today", "desc");
-
-                HttpResponseMessage response = client.GetAsync(parameters).Result;
-
-                if (response.IsSuccessStatusCode)
+            string completeUrl = $"{baseURl}?apikey={apikey}&offset={offset}&categories=finance,business&sort=desc&limit=10";
+            Console.WriteLine($"Fetching news from: {completeUrl}");
+            
+            using (var client = new HttpClient())
+            {
+                try
                 {
-                    var result = response.Content.ReadAsStringAsync().Result;
-
-                    return JsonConvert.DeserializeObject<FinanceNews>(result);
-
-                } else
-                {
-                    return new FinanceNews()
+                    var response = await client.GetAsync(completeUrl);
+                    if (response.IsSuccessStatusCode)
                     {
-                        Data = new List<NewsArticle>(),
-                        Pagination = new Pagination()
-                    };
+                        var content = await response.Content.ReadAsStringAsync();
+                        Console.WriteLine($"API Response: {content}");
+                        var news = JsonConvert.DeserializeObject<FinanceNews>(content);
+                        // Log successful fetch
+                        Console.WriteLine($"Successfully fetched {news?.Data?.Count ?? 0} news articles");
+                        return news;
+                    }
+                    else
+                    {
+                        var errorContent = await response.Content.ReadAsStringAsync();
+                        throw new Exception($"API request failed with status code: {response.StatusCode}. Response: {errorContent}");
+                    }
                 }
-                
-
+                catch (Exception ex)
+                {
+                    // Log the error with more details
+                    Console.WriteLine($"Error fetching news: {ex.Message}");
+                    Console.WriteLine($"Stack trace: {ex.StackTrace}");
+                    throw;
+                }
             }
         }
     }
