@@ -48,11 +48,11 @@
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[13.0.3, )"
             },
             "System.Security.Permissions": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
